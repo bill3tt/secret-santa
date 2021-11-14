@@ -1,18 +1,31 @@
 import itertools
 import random
 
-people = ["Ian", "Joel", "Robbie", "Connor", "Jason", "Jimmy", "Gareth"]
+people = ["Ian", "Lucy", "Rosie", "Mike", "Hannah", "Graham"]
 
 past_years = [
     # Buyer, Receiver
+    # Partners
+    ("Ian", "Lucy"),
+    ("Lucy", "Ian"),
+    ("Hannah", "Graham"),
+    ("Graham", "Hannah"),
+    ("Rosie", "Mike"),
+    ("Mike", "Rosie"),
     # 2020
-    ("Ian", "Jason"),
-    ("Jimmy", "Ian"),
-    ("Connor", "Robbie"),
-    ("Jason", "Gareth"),
-    ("Gareth", "Joel"),
-    ("Joel", "Jimmy"),
-    ("Robbie", "Connor"),
+    ("Graham", "Rosie"),
+    ("Mike", "Graham"),
+    ("Hannah", "Lucy"),
+    ("Rosie", "Ian"),
+    ("Ian", "Hannah"),
+    ("Lucy", "Mike")
+    # 2021
+    ("Lucy", "Graham"),
+    ("Hannah", "Ian"),
+    ("Mike", "Lucy"),
+    ("Rosie", "Hannah"),
+    ("Ian", "Rosie"),
+    ("Graham", "Mike"),
 ]
 
 # Generate every pair-length permutation of the original list of people.
@@ -33,3 +46,11 @@ while pick_pool:
 
 for p in this_years_picks:
     print(p)
+
+
+# Lucy -> Graham
+# Hannah -> Ian
+# Mike -> Lucy
+# Rosie -> Hannah
+# Ian -> Rosie
+# Graham -> Mike
