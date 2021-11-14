@@ -46,11 +46,3 @@ while pick_pool:
 
 for p in this_years_picks:
     print(p)
-
-
-# Lucy -> Graham
-# Hannah -> Ian
-# Mike -> Lucy
-# Rosie -> Hannah
-# Ian -> Rosie
-# Graham -> Mike
