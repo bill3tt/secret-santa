@@ -4,6 +4,7 @@ import random
 people = ["Ian", "Joel", "Robbie", "Connor", "Jason", "Jimmy", "Gareth"]
 
 past_years = [
+    # Buyer, Receiver
     # 2020
     ("Ian", "Jason"),
     ("Jimmy", "Ian"),
