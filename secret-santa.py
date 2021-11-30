@@ -1,18 +1,17 @@
 import itertools
 import random
 
-people = ["Ian", "Joel", "Robbie", "Connor", "Jason", "Jimmy", "Gareth"]
+people = ["Ian", "Lucy", "David", "Anna", "Julia", "Jon"]
 
 past_years = [
     # Buyer, Receiver
-    # 2020
-    ("Ian", "Jason"),
-    ("Jimmy", "Ian"),
-    ("Connor", "Robbie"),
-    ("Jason", "Gareth"),
-    ("Gareth", "Joel"),
-    ("Joel", "Jimmy"),
-    ("Robbie", "Connor"),
+    # Partners
+    ("Ian", "Lucy"),
+    ("Lucy", "Ian"),
+    ("David", "Anna"),
+    ("Anna", "David"),
+    ("Julia", "Jon"),
+    ("Jon", "Julia"),
 ]
 
 # Generate every pair-length permutation of the original list of people.
