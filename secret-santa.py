@@ -12,6 +12,13 @@ past_years = [
     ("Anna", "David"),
     ("Julia", "Jon"),
     ("Jon", "Julia"),
+    # 2021
+    ("Julia", "Anna"),
+    ("Ian", "Jon"),
+    ("Jon", "Lucy"),
+    ("Anna", "Julia"),
+    ("David", "Ian"),
+    ("Lucy", "David"),
 ]
 
 # Generate every pair-length permutation of the original list of people.
