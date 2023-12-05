@@ -19,13 +19,20 @@ past_years = [
     ("Anna", "Julia"),
     ("David", "Ian"),
     ("Lucy", "David"),
-     # 2022
-    ('Julia', 'Ian')
-    ('Anna', 'Jon')
-    ('Ian', 'Anna')
-    ('Lucy', 'Julia')
-    ('Jon', 'David')
+    # 2022
+    ('Julia', 'Ian'),
+    ('Anna', 'Jon'),
+    ('Ian', 'Anna'),
+    ('Lucy', 'Julia'),
+    ('Jon', 'David'),
     ('David', 'Lucy')
+    # 2023
+    ('Jon', 'Ian'),
+    ('Julia', 'David'),
+    ('David', 'Jon'),
+    ('Ian', 'Julia'),
+    ('Anna', 'Lucy'),
+    ('Lucy', 'Anna')
 ]
 
 # Generate every pair-length permutation of the original list of people.
